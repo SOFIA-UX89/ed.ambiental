@@ -1,0 +1,308 @@
+* 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8f5;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 2px solid #00a39b;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #00a39b;
+}
+
+.logo img {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #00a39b;
+}
+
+.title h1 {
+    font-size: 28px;
+    color: #007d71;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.title h2 {
+    font-size: 20px;
+    color: #008a65;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 5px;
+}
+
+/* Estilos para el menú horizontal */
+.nav {
+    width: 100%;
+    background-color: #e8f6ef;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 10px;
+    border-bottom: 3px solid #00a39b;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Espacio entre los elementos del menú */
+}
+
+.nav ul li a {
+    text-decoration: underline; /* Subrayado */
+    color: #007d71;
+    font-weight: bold; /* Negrita */
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilo en cursiva para "Sobre Nosotros" */
+.nav ul li a[href="sobre-nosotros.html"] {
+    font-style: italic;
+}
+
+.content {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e8f6ef;
+    border-radius: 10px;
+    line-height: 1.8;
+    border: 2px solid #bde0d7;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+}
+
+.content p {
+    margin-bottom: 15px;
+}
+
+.contact {
+    margin-top: 30px;
+    padding: 20px;
+    border-top: 3px solid #00a39b;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.contact-box {
+    flex: 1;
+    padding: 15px;
+    background-color: #e0f7e9;
+    border-radius: 10px;
+    border: 2px solid #bde0d7;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-box h3 {
+    color: #007d71;
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.contact-box ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.contact-box ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #00a39b;
+    font-size: 16px;
+    color: #007d71;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-box ul li i {
+    color: #008a65;
+    font-size: 18px;
+}
+
+.contact-box ul li:hover {
+    background-color: #c7eedd;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+/* Logo en la navegación */
+.logo-nav {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Footer */
+.footer {
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f8f5;
+    border-top: 3px solid #00a39b;
+    border-radius: 10px;
+}
+
+.footer-logo img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: 2px solid #00a39b;
+}
+
+.footer p {
+    font-size: 16px;
+    color: #007d71;
+    font-family: 'Dancing Script', cursive;
+}
+
+/* Logo en la navegación */
+.logo-nav {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Footer */
+.footer {
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f8f5;
+    border-top: 3px solid #00a39b;
+    border-radius: 10px;
+}
+
+.footer-logo img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: 2px solid #00a39b;
+}
+
+.footer p {
+    font-size: 16px;
+    color: #007d71;
+    font-family: 'Dancing Script', cursive;
+}
+
+/* Logo en la navegación */
+.logo-nav {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Footer */
+.footer {
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f8f5;
+    border-top: 3px solid #00a39b;
+    border-radius: 10px;
+}
+
+.footer-logo img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: 2px solid #00a39b;
+}
+
+.footer p {
+    font-size: 16px;
+    color: #007d71;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+/* Estilo para los botones */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    background-color: #00a39b; /* Color principal del botón */
+    border: 2px solid #007d71;
+    border-radius: 25px; /* Bordes redondeados */
+    text-decoration: none; /* Quitar subrayado */
+    text-align: center;
+    transition: all 0.3s ease; /* Transición suave para los efectos */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+.button:hover {
+    background-color: #007d71; /* Cambio de color al pasar el cursor */
+    color: #e8f6ef; /* Color del texto al hacer hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Aumentar sombra */
+    transform: scale(1.05); /* Efecto de agrandamiento */
+}
+
+/* Contenedor del menú */
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre botones */
+}
+
+.nav ul li {
+    margin: 0;
+}
+
+/* Logo en la navegación */
+.logo-nav {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
